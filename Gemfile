@@ -18,6 +18,13 @@ gem 'jquery-fileupload-rails'
 
 group :development do
   gem 'web-console', '~> 2.0'
+  gem 'byebug'
+  gem 'better_errors'
+  gem 'pry-rails'
+
+  gem "interactive_editor"
+  gem "awesome_print"
+  gem "hirb"
 end
 
 group :test do
